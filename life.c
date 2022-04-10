@@ -101,7 +101,7 @@ int compute(int **life, int **temp, int N) {
 
   return flag;
 }
-
+//
 
 int main(int argc, char **argv) {
   int N, NTIMES, NTHREADS, **life=NULL, **temp=NULL, **ptr ;
